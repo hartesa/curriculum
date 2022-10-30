@@ -80,7 +80,7 @@ If you have just installed and/or updated Git from the previous step, first clos
 git --version
 ~~~
 
-If the version number is less than 2.28, follow the instructions again. If you are encountering a `no formulae found in taps` error:
+If the version number is less than 2.28, follow the instructions again. If the problem persist, try to restart your computer and see if the version is updated. If you are encountering a `no formulae found in taps` error:
 
 1. Run `brew doctor`
 2. You will see an output like the one below. NOTE: The actual output of `brew doctor` may vary based on the version of MacOS you're running, and any other issues you may have with your own installation. Ultimately, you must run each command line snippet that Homebrew provides after running `brew doctor` to repair your installation of Homebrew, including `brew cleanup` at the end.
